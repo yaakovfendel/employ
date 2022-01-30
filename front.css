@@ -1,0 +1,88 @@
+* {
+    font-family: cursive;
+    font-weight: normal;
+    margin: 0px;
+  }
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v462-n-130-textureidea_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=9465282a2b0a375f4f5b120d7bbad882");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .all {
+    display: flex;
+    align-items: center;  
+}
+  .btn {
+    font-size: 1.2rem;
+    width: 250px;
+    cursor: pointer;
+    color: white;
+    background-color: cadetblue;
+    border: 0.3rem solid black;
+    border-radius: 0.3em;
+    font-weight: bold;
+  }
+  .btn:hover {
+    color: #664404;
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0;
+    transform: translateY(-0.1rem);
+  }
+  #main_results{
+    align-items: center;
+    color:floralwhite;    
+  }
+  .results {
+      align-items: center;
+    color:indianred;
+
+}
+  .input{
+    font-size: 1.2rem;
+    height: 20px;
+    width: 120px;
+    cursor: pointer;
+    border: 0.3rem solid black;
+    border-radius: 0.3em;
+    font-weight: bold;  
+  }
+  
+  #name{
+    color:#664404;
+    font-size: 1.1rem;
+    width: 100px;
+    background-color:gainsboro;
+  }
+  #title{
+    color:maroon;
+    font-size: 1.1rem;
+    width: 100px;
+    background-color:darkseagreen;
+  }
+  #message{
+    color:blueviolet;
+    font-size: 1.1rem;
+    width: 170px;
+  background-color:darkkhaki;
+  }
+  #name_user{
+    color:khaki;
+  }
+  #last_name{
+    color:lightblue;
+  }
+  #id{
+    color:lightseagreen;
+  }
+  #Message_user{
+    color:mediumturquoise;
+  }
+  #title_user{
+    color:orangered;
+  }
